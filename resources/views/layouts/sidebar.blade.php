@@ -2,8 +2,7 @@
         <div
           class="sidebar-left open rtl-ps-none"
           data-perfect-scrollbar
-          data-suppress-scroll-x="true"
-        >
+          data-suppress-scroll-x="true">
           <ul class="navigation-left">
             <li class="nav-item " data-item="dashboard">
               <a class="nav-item-hold" href="#">
@@ -50,7 +49,7 @@
             <li class="nav-item" data-item="sessions">
               <a class="nav-item-hold" href="#">
                 <i class="nav-icon i-Administrator"></i>
-                <span class="nav-text">Sessions</span>
+                <span class="nav-text">Người Dùng</span>
               </a>
               <div class="triangle"></div>
             </li>
@@ -352,10 +351,16 @@
           </div>
           <div class="submenu-area" data-parent="sessions">
                 <header>
-                        <h6>Session Pages</h6>
-                        <p>Lorem ipsum dolor sit.</p>
+                        <h6>Users</h6>
+                        <p>Quản lý thành viên.</p>
                     </header>
                 <ul class="childNav">
+                    <li class="nav-item">
+                        <a href="signin.html">
+                        <i class="nav-icon i-Checked-User"></i>
+                        <span class="item-name">Sign in</span>
+                        </a>
+                    </li>
                     <li class="nav-item">
                         <a href="signin.html">
                         <i class="nav-icon i-Checked-User"></i>
