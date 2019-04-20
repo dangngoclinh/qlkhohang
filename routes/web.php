@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('landing');
+//Users
+Route::group(['prefix' => 'users'], function() {
+	Route::get('', 'UserController@index')->name('usersIndex');
 });
-Route::view('/dashboard', 'starter')->name('starter');
+
+Auth::routes();
+Route::get('/', 'HomeController@index')->name('home');

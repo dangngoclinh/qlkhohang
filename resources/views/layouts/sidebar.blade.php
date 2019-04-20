@@ -358,13 +358,13 @@
                     <li class="nav-item">
                         <a href="signin.html">
                         <i class="nav-icon i-Checked-User"></i>
-                        <span class="item-name">Sign in</span>
+                        <span class="item-name">Danh sách Users</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="signin.html">
                         <i class="nav-icon i-Checked-User"></i>
-                        <span class="item-name">Sign in</span>
+                        <span class="item-name">Thêm Users</span>
                         </a>
                     </li>
                     <li class="nav-item">
